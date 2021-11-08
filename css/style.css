@@ -1,0 +1,188 @@
+:root {
+  --active-link-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --thirdery-text-color: #ffffff;
+  --footer-b-color: #2f303a;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a {
+  color: #212121;
+}
+a:active {
+  color: var(--active-link-color);
+}
+a:hover {
+  color: var(--active-link-color);
+}
+button:hover {
+  background-color: #2196f3;
+  color: var(--thirdery-text-color);
+}
+button:focus {
+  background-color: #2196f3;
+  color: var(--thirdery-text-color);
+}
+button:active {
+  background-color: #2196f3;
+  color: var(--thirdery-text-color);
+}
+a:focus {
+  color: var(--active-link-color);
+}
+.style-color-web-studio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--active-link-color);
+}
+.studio-color {
+  color: #000000;
+}
+.studio-color-footer {
+  color: var(--thirdery-text-color);
+}
+.footer {
+  background-color: var(--footer-b-color);
+}
+.text-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.text-footer-map {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--thirdery-text-color);
+}
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact-color {
+  color: var(--secondary-text-color);
+}
+
+.heat-bg {
+  background-color: var(--footer-b-color);
+}
+
+.heat-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--thirdery-text-color);
+}
+
+.detail-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.detail-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.w-w-doing {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.our-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.our-team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.text-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.project-text { 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.cursor {
+  cursor: pointer;
+}
+
+.big-button {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: var(--thirdery-text-color);
+background-color: var(--active-link-color);
+}
