@@ -1,3 +1,10 @@
+/* Глобальный сброс стилей*/
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 :root {
   --active-link-color: #2196f3;
   --primary-text-color: #212121;
@@ -36,6 +43,22 @@ button:active {
 a:focus {
   color: var(--active-link-color);
 }
+
+/* Контейнер*/
+.container {
+  width: 1200px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Секции*/
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: violet;
+}
+
 .style-color-web-studio {
   font-family: Raleway;
   font-style: normal;
