@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 	border: 0;
 }
 
+
 :root {
   --active-link-color: #2196f3;
   --primary-text-color: #212121;
@@ -56,9 +57,37 @@ a:focus {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: violet;
+}
+/* Коробка хедера*/
+.top-header {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+/* Коробка лого*/
+.logo-box {
+margin: 25px 0px 24px 0px
+}
+/* Коробка навигации*/
+.nav-box {
+  margin: 32px 0px 32px 93px;
+}
+.hr {
+    display: inline;
+
+}
+
+.hr-mrg-l {
+ margin-right: 50px;
+}
+/* Коробка почты и телефона*/
+.tel-box {
+  margin: 32px 0px 32px 321px;
+  display: flex;
+  justify-content: flex-start;
+}
 .style-color-web-studio {
   font-family: Raleway;
   font-style: normal;
@@ -76,6 +105,8 @@ a:focus {
 }
 .footer {
   background-color: var(--footer-b-color);
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .text-footer {
   font-family: Roboto;
@@ -85,6 +116,8 @@ a:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+  display: inline-block;
 }
 .text-footer-map {
   font-family: Roboto;
@@ -95,6 +128,12 @@ a:focus {
   letter-spacing: 0.03em;
   color: var(--thirdery-text-color);
 }
+
+.web-footer-position {
+  margin-bottom: 20px;
+}
+
+
 .nav {
   font-weight: 500;
   font-size: 14px;
@@ -110,6 +149,15 @@ a:focus {
   background-color: var(--footer-b-color);
 }
 
+.heat-position {
+  padding: 200px 252px 200px 252px;
+}
+
+.heat-button-position {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
 .heat-text {
   font-weight: 900;
   font-size: 44px;
@@ -119,6 +167,25 @@ a:focus {
   text-transform: uppercase;
   color: var(--thirdery-text-color);
 }
+
+.card-item {
+    margin: none;
+    padding: none;
+    list-style: none;
+    display: flex;
+    margin-left: -30px;
+}
+
+.card-item >.item-position {
+  flex-basis: calc(100%/4-30px);
+  margin-left: 30px;
+}
+
+.card-padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 
 .detail-title {
   font-weight: 700;
@@ -135,6 +202,7 @@ a:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-top: 10px;
 }
 
 .w-w-doing {
@@ -144,8 +212,21 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 50px;
 }
 
+.w-w-doing-card {
+  margin: none;
+  padding: none;
+  list-style: none;
+  display: flex;
+  margin-left: -30px;
+}
+
+.w-w-doing-card-item {
+  flex-basis: calc(100%/3-30px);
+  margin-left: 30px;
+}
 .our-team {
   font-weight: 700;
   font-size: 36px;
@@ -153,6 +234,7 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 50px;
 }
 
 .our-team-title {
@@ -162,6 +244,7 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-top: 30px;
 }
 .our-team-text {
   font-weight: 400;
@@ -170,7 +253,26 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-top: 10px;
 }
+
+.our-team-card {
+  margin: none;
+  padding: none;
+  list-style: none;
+  display: flex;
+  margin-left: -30px;
+}
+
+.our-team-item {
+  flex-basis: calc(100%/3-30px);
+  margin-left: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+
+}
+
 
 .text-button {
   font-weight: 500;
@@ -200,6 +302,8 @@ a:focus {
 }
 
 .big-button {
+  width: 200px;
+  height: 50px;
   font-family: Roboto;
 font-style: normal;
 font-weight: 700;
@@ -208,4 +312,6 @@ line-height: 1.88;
 letter-spacing: 0.06em;
 color: var(--thirdery-text-color);
 background-color: var(--active-link-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
