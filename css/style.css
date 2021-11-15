@@ -48,6 +48,11 @@ a:focus {
 body {
   width: 1600px;
 }
+
+.header-line {
+width: 1600px;
+border-bottom: 1px solid #ececec;
+}
 /* Контейнер*/
 .container {
   width: 1200px;
@@ -301,6 +306,7 @@ margin: 25px 0px 24px 0px
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-top: 4px;
+  margin-bottom: 20px;
 }
 .cursor {
   cursor: pointer;
@@ -348,4 +354,5 @@ margin-left: 8px;
 flex-basis: calc(100%/9);
 margin-left: 30px;
 margin-top: 30px;
+border-bottom:1px solid #EEEEEE; ;
 }
