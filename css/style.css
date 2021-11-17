@@ -51,7 +51,6 @@ a:focus {
   color: var(--active-link-color);
 }
 
-
 .header-line {
   width: 1600px;
   border-bottom: 1px solid #ececec;
@@ -190,7 +189,6 @@ a:focus {
   flex-basis: 270px;
   margin-left: 30px;
 }
-
 
 .detail-title {
   font-weight: 700;
@@ -342,7 +340,6 @@ a:focus {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  
 }
 
 .portfolio-card > .portfolio-item {
