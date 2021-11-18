@@ -52,7 +52,6 @@ a:focus {
 }
 
 .header-line {
-  width: 1600px;
   border-bottom: 1px solid #ececec;
   margin-left: auto;
   margin-right: auto;
@@ -69,6 +68,9 @@ a:focus {
 /* Секции*/
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-pad-bot {
   padding-bottom: 94px;
 }
 /* Коробка хедера*/
@@ -159,7 +161,7 @@ a:focus {
 }
 
 .heat-position {
-  padding: 200px 0px 200px 0px;
+  padding: 200px 252px 200px 252px;
 }
 
 .heat-button-position {
@@ -291,7 +293,6 @@ a:focus {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  margin-top: 20px;
 }
 .project-text {
   font-weight: 400;
@@ -300,7 +301,6 @@ a:focus {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-top: 4px;
-  margin-bottom: 20px;
 }
 .cursor {
   cursor: pointer;
@@ -326,10 +326,13 @@ a:focus {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .portfolio-button-item {
   margin-left: 8px;
+}
+.pad-button {
+  padding: 6px 22px;
 }
 
 .portfolio-card {
